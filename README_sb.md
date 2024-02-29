@@ -16,6 +16,4 @@ cd metadrive/bridges/ros_bridge && source install/setup.bash
 ros2 launch metadrive_example_bridge metadrive_example_bridge.launch.py
 # Terminal 2, launch socket server
 python ros_socket_server.py
-
-
 ```
