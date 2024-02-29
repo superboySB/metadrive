@@ -4,6 +4,8 @@ import struct
 
 import numpy as np
 import zmq
+import sys
+sys.path.append("/mnt/md0/daizipeng/metadrive/")
 
 from metadrive.constants import HELP_MESSAGE
 from metadrive.engine.asset_loader import AssetLoader
